@@ -7,7 +7,7 @@ import createSlug from "../lib/createSlug"
 ---
 
 <BaseLayout sideBarActiveItemID="home">
-  <div class="pb-8 mt-5">
+  <div class="pb-2 mt-5">
     <div class="text-xl py-1">Hey there 👨‍💻</div>
     <div class="text-5xl font-bold">I'm Carlos Tarrias</div>
     <div class="text-3xl py-3 font-bold">Web Developer</div>
@@ -21,20 +21,32 @@ import createSlug from "../lib/createSlug"
   </div>
 
   <div>
+    <div class="text-3xl w-full font-bold mb-2">About Me</div>
+  </div>
+  <div class="py-2 text-justify">
+    <text class="text-lg text-justify">
+      I am currently studying a higher degree in web development in Barcelona.
+      This portfolio showcases a collection of the web projects and user interfaces I've developed in the last two years.<br/>
+      You will find samples of my experience in various areas, such as developing responsive websites, creating functional user interfaces, and implementing interactive features with Javascript and Vue.<br/>
+      Feel free to explore my portfolio and get a glimpse of my work. Thank you for visiting!
+    </text>
+  </div>
+
+  <div>
     <div class="text-3xl w-full font-bold mb-2">My last projects</div>
   </div>
 
   <HorizontalCard
     title="GameSwap"
     img="/gameswap.png"
-    desc="Purchasing and selling platform for second-hand videogames."
+    desc="GameSwap is a second-hand video game buying and selling platform that addresses the need for a specialized community for video game enthusiasts. Unlike generic platforms, GameSwap focuses on providing a diverse catalog of video games, making it easy for users to find their favorite titles."
     url="https://github.com/CarlosTarriasDiazWeb/M12GameSwap-vue-node"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
     title="Rainbow Voyage"
     img="/rainbow-project.png"
-    desc="LGTBIQ+ Travel Agency"
-    url=https://github.com/CarlosTarriasDiazWeb/M12-RainbowVoyageVueNode"
+    desc="Rainbow Voyage is an innovative website designed to offer unique and safe travel experiences in selected destinations in Spain for the LGTBIQA+ community. This project addresses the need for inclusive destinations by providing detailed information on festive, cultural and gastronomic experiences in cities."
+    url="https://github.com/CarlosTarriasDiazWeb/M12-RainbowVoyageVueNode"
   />
 </BaseLayout>
